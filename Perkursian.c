@@ -49,7 +49,7 @@ void reservasi_kursi(char nama[], int nomor_kursi) {
 	printf("Kursi %d sudah dipesan untuk %s. \n", nomor_kursi, nama);
 } 
 
-void perkursian () {
+int perkursian () {
 	char nama[20];
 	int nomor_kursi;
 	
@@ -66,4 +66,5 @@ void perkursian () {
 	system("cls");
 	tampilkan_kursi();
 	sleep(5);
+	return nomor_kursi;
 } 
