@@ -10,7 +10,7 @@ typedef struct {
 
 void tampilkan_kursi();
 void reservasi_kursi(char nama[], int nomor_kursi);
-void perkursian();
+int perkursian();
 
 #endif
 
